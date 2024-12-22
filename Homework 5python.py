@@ -34,7 +34,7 @@ def paraCekme():
     
     else:
         bakiye-=cekme
-        print(f"Basariyla hesabinizdan {cekme}Tl para cektiniz!")
+        print(f"Basariyla hesabinizdan {cekme:.2f}Tl para cektiniz!")
         
 def bakiyeSorgula():
     global bakiye
@@ -46,7 +46,7 @@ def paraYatirma():
     global bakiye
     yatirma=float(input("Para yatirmak istediginiz miktari giriniz:"))
     bakiye+=yatirma
-    print(f"Basariyla hesabiniza {yatirma}Tl para yatirdiniz!")
+    print(f"Basariyla hesabiniza {yatirma:.2f}Tl para yatirdiniz!")
 
 
 while bakiye>=0 :
